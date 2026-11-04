@@ -42,5 +42,5 @@ A mobile application built with **React Native**, **Expo**, and **Expo Router** 
 * `Output_Screens/` - Folder containing application execution screenshots.
 
  Output Screenshots
->>>>>>> 65cac06 (Add Output_Screens folder and screenshots)
+ (Add Output_Screens folder and screenshots)
 You can find the application screenshots inside the `Output_Screens` directory.
