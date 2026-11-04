@@ -1,56 +1,26 @@
-# Welcome to your Expo app 👋
+University of Kelaniya
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Academic Year: 2024/2025 (Semester 2)
 
-## Get started
+Course: Mobile Application Development
 
-1. Install dependencies
+Practical Tutorial 04:Interactive Game Development with Expo Router 
 
-   ```bash
-   npm install
-   ```
+# RockPaperSnap ✊✋✌️
 
-2. Start the app
+A mobile application built with **React Native**, **Expo**, and **Expo Router** as part of the Mobile Application Development Practical Tutorial 05 at the University of Kelaniya.
 
-   ```bash
-   npx expo start
-   ```
+## 🚀 Features
+* **Interactive Game Engine:** Play classic Rock-Paper-Scissors against the computer with real-time score tracking (Wins, Draws, Losses) using `useState`[cite: 1].
+* **File-based Tab Navigation:** Seamless navigation between the Play Game arena and Rules screen using Expo Router Tabs[cite: 1].
+* **Advanced UI Styling:** Styled using Flexbox, custom color palettes, responsive layouts, and vector icons[cite: 1].
+* **Native Splash Screen:** Configured with a custom game logo and splash screen[cite: 1].
 
-In the output, you'll find options to open the app in a
+## 📂 Project Structure
+* `app/(tabs)/index.tsx` - Main game play screen and game logic.
+* `app/(tabs)/rules.tsx` - Scrollable game rules screen.
+* `app/(tabs)/_layout.tsx` - Bottom tab navigation configuration.
+* `Output_Screens/` - Folder containing application execution screenshots.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 📱 Output Screenshots
+You can find the application screenshots inside the `Output_Screens` directory.
