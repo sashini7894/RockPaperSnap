@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 University of Kelaniya
 
 Academic Year: 2024/2025 (Semester 2)
